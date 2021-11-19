@@ -53,7 +53,7 @@ Might be too late since there are already some very good teams working on this i
 
 https://github.com/0xngmi/dca
 
-### Very log gas dex
+### Very low gas dex
 https://twitter.com/0xngmi/status/1443498971649949698
 
 ### MEV front-running as a service

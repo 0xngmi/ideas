@@ -62,6 +62,12 @@ https://twitter.com/0xngmi/status/1447003709532213248
 ### Good counterfactual NFT minting
 https://twitter.com/0xngmi/status/1447015858925195268
 
+### Better Protocol-owned-liquidity bonds
+https://twitter.com/0xngmi/status/1503023026522238985
+
+### Protocol that optimizes emissions
+https://twitter.com/0xngmi/status/1503017784317562885
+
 ### Tranched product with personalized risk profiles
 WIP
 

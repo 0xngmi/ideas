@@ -73,3 +73,9 @@ WIP
 
 ### Vault for Ruler
 Revive ruler but build a vault where people can just deposit money and it lends it out
+
+## Research
+- Classify all tokens by tags like "veTokenomics", "low float+high fdv", "offers staking"... and then look at their perfomance over time (controling for factors like bull/bear market) to do a data-based analysis of different tokenomics
+
+## How have I been drained?
+Users input their address and it tells them how they got drained and what to do as next steps to stay safe.

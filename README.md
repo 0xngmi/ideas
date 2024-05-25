@@ -11,6 +11,9 @@ If you want, feel free to reach out to me if you want advice or help with buildi
 
 ## Ideas
 
+### Decentralized Bitcoin bridge based on Eigelayer
+https://gist.github.com/0xngmi/432f14411dff5adc98580f4d5b9eb439
+
 ### Vault for arbing withdrawals on L2 bridges
 Optimistic bridges have long withdrawal times so people that want their money instantly have to use bridges like synapse or hop to cross the gap instantly, and because of the way they work this creates some positive slippage if you bridge in.
 

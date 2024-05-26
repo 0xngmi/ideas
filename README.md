@@ -11,6 +11,9 @@ If you want, feel free to reach out to me if you want advice or help with buildi
 
 ## Ideas
 
+### Lending protocol optimized for redeemable assets
+https://gist.github.com/0xngmi/c92ce3fce377a0e72c1e90052db98bf1
+
 ### Decentralized Bitcoin bridge based on Eigelayer
 https://gist.github.com/0xngmi/432f14411dff5adc98580f4d5b9eb439
 

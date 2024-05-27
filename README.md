@@ -29,6 +29,8 @@ The opportunity here is to build a protocol that automates this type of arbitrag
 Probably the hardest thing to build here is some algorithm that maximizes APY by leaving some money resting on L1 (you want to bridge when most people are exiting in order to maximize arbs).
 
 ### Vault for PERP basis trades
+**Update: Built by Ethena**
+
 Simplifying the concept, PERPs work by paying funding from the less popular position to the most popular one. In other words, if most people are longing bitcoin, they are paying those who are shorting, and the bigger is the difference between longs/shorts, the more they pay. This makes it possible to make money by shorting bitcoin.
 
 You may be thinking that this is not great because you need to short bitcoin, which is a bad trade, however you can arb this while maintaining the exposure that you want.
@@ -52,10 +54,12 @@ Discussion: https://twitter.com/0xngmi/status/1454713199039758341
 https://twitter.com/0xngmi/status/1448157331422859266
 
 ### NFT lending
+**Update: I built it and it failed, very little demand for long tail NFT lending**
+
 https://github.com/0xngmi/nft-collateral#lending-pools
 
 ### DCA vaults
-Might be too late since there are already some very good teams working on this idea
+**Update: Built by mean finance**
 
 https://github.com/0xngmi/dca
 
@@ -66,12 +70,16 @@ https://twitter.com/0xngmi/status/1443498971649949698
 https://twitter.com/0xngmi/status/1447003709532213248
 
 ### Good counterfactual NFT minting
+**Update: built by sealed.art**
+
 https://twitter.com/0xngmi/status/1447015858925195268
 
 ### Better Protocol-owned-liquidity bonds
 https://twitter.com/0xngmi/status/1503023026522238985
 
 ### Protocol that optimizes emissions
+**Update: Somewhat similar to the services Gauntlet offers**
+
 https://twitter.com/0xngmi/status/1503017784317562885
 
 ### Tranched product with personalized risk profiles
@@ -80,8 +88,8 @@ WIP
 ### Vault for Ruler
 Revive ruler but build a vault where people can just deposit money and it lends it out
 
+### Website "How have I been drained?"
+Users input their address and it tells them how they got drained and what to do as next steps to stay safe.
+
 ## Research
 - Classify all tokens by tags like "veTokenomics", "low float+high fdv", "offers staking"... and then look at their perfomance over time (controling for factors like bull/bear market) to do a data-based analysis of different tokenomics
-
-## How have I been drained?
-Users input their address and it tells them how they got drained and what to do as next steps to stay safe.

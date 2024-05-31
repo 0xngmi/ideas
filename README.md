@@ -14,6 +14,9 @@ If you want, feel free to reach out to me if you want advice or help with buildi
 ### Lending protocol optimized for redeemable assets
 https://gist.github.com/0xngmi/c92ce3fce377a0e72c1e90052db98bf1
 
+### Tranched product with personalized risk profiles
+https://gist.github.com/0xngmi/653aa70d3162f0ef4a41d56ced602a6c
+
 ### Decentralized Bitcoin bridge based on Eigelayer
 https://gist.github.com/0xngmi/432f14411dff5adc98580f4d5b9eb439
 
@@ -28,16 +31,11 @@ The opportunity here is to build a protocol that automates this type of arbitrag
 
 Probably the hardest thing to build here is some algorithm that maximizes APY by leaving some money resting on L1 (you want to bridge when most people are exiting in order to maximize arbs).
 
-### Vault for PERP basis trades
-**Update: Built by Ethena**
+### MEV front-running as a service
+https://twitter.com/0xngmi/status/1447003709532213248
 
-Simplifying the concept, PERPs work by paying funding from the less popular position to the most popular one. In other words, if most people are longing bitcoin, they are paying those who are shorting, and the bigger is the difference between longs/shorts, the more they pay. This makes it possible to make money by shorting bitcoin.
-
-You may be thinking that this is not great because you need to short bitcoin, which is a bad trade, however you can arb this while maintaining the exposure that you want.
-
-If you have 100 USD, you can buy 50$ worth of BTC and open a 50x short. Then if bitcoin goes up your short will lose value but your BTC will gain the same amount in value, so your net gain/loss will be 0, therefore whatever happens your position is still equivalent to your intial 100$. However, because you are shorting bitcoin, now you are also collecting funding fees, thus earning a good APY on your USD.
-
-This is not simple tho, you need to avoid getting liquidated and if the mark price moves against you and you sell, you'll realize a loss. This means that your money may be locked during some time and that this strategy is not well suited to have deposits/withdraws that are triggered by users (otherwise a user could make you lose money), so it can't be implemented on the vaults of traditional yield aggregators.
+### Website "How have I been drained?"
+Users input their address and it tells them how they got drained and what to do as next steps to stay safe.
 
 ### Vtuber setup as a service
 I've met many people in the cryptocurrency space that would like to have a vtuber, in order to be able to join calls while staying anon, but don't have the time to set it up.
@@ -53,6 +51,39 @@ Discussion: https://twitter.com/0xngmi/status/1454713199039758341
 ### NFT AMM that works like raydium over serum (os instead)
 https://twitter.com/0xngmi/status/1448157331422859266
 
+### Very low gas dex
+https://twitter.com/0xngmi/status/1443498971649949698
+
+### Better Protocol-owned-liquidity bonds
+https://twitter.com/0xngmi/status/1503023026522238985
+
+### Vault for Ruler
+Revive ruler but build a vault where people can just deposit money and it lends it out
+
+## Already built
+Ideas that have already been built since I posted about them:
+
+### Protocol that optimizes emissions
+**Update: Somewhat similar to the services Gauntlet offers**
+
+https://twitter.com/0xngmi/status/1503017784317562885
+
+### Vault for PERP basis trades
+**Update: Built by Ethena**
+
+Simplifying the concept, PERPs work by paying funding from the less popular position to the most popular one. In other words, if most people are longing bitcoin, they are paying those who are shorting, and the bigger is the difference between longs/shorts, the more they pay. This makes it possible to make money by shorting bitcoin.
+
+You may be thinking that this is not great because you need to short bitcoin, which is a bad trade, however you can arb this while maintaining the exposure that you want.
+
+If you have 100 USD, you can buy 50$ worth of BTC and open a 50x short. Then if bitcoin goes up your short will lose value but your BTC will gain the same amount in value, so your net gain/loss will be 0, therefore whatever happens your position is still equivalent to your intial 100$. However, because you are shorting bitcoin, now you are also collecting funding fees, thus earning a good APY on your USD.
+
+This is not simple tho, you need to avoid getting liquidated and if the mark price moves against you and you sell, you'll realize a loss. This means that your money may be locked during some time and that this strategy is not well suited to have deposits/withdraws that are triggered by users (otherwise a user could make you lose money), so it can't be implemented on the vaults of traditional yield aggregators.
+
+### Good counterfactual NFT minting
+**Update: built by sealed.art**
+
+https://twitter.com/0xngmi/status/1447015858925195268
+
 ### NFT lending
 **Update: I built it and it failed, very little demand for long tail NFT lending**
 
@@ -62,34 +93,6 @@ https://github.com/0xngmi/nft-collateral#lending-pools
 **Update: Built by mean finance**
 
 https://github.com/0xngmi/dca
-
-### Very low gas dex
-https://twitter.com/0xngmi/status/1443498971649949698
-
-### MEV front-running as a service
-https://twitter.com/0xngmi/status/1447003709532213248
-
-### Good counterfactual NFT minting
-**Update: built by sealed.art**
-
-https://twitter.com/0xngmi/status/1447015858925195268
-
-### Better Protocol-owned-liquidity bonds
-https://twitter.com/0xngmi/status/1503023026522238985
-
-### Protocol that optimizes emissions
-**Update: Somewhat similar to the services Gauntlet offers**
-
-https://twitter.com/0xngmi/status/1503017784317562885
-
-### Tranched product with personalized risk profiles
-https://gist.github.com/0xngmi/653aa70d3162f0ef4a41d56ced602a6c
-
-### Vault for Ruler
-Revive ruler but build a vault where people can just deposit money and it lends it out
-
-### Website "How have I been drained?"
-Users input their address and it tells them how they got drained and what to do as next steps to stay safe.
 
 ## Research
 - Classify all tokens by tags like "veTokenomics", "low float+high fdv", "offers staking"... and then look at their perfomance over time (controling for factors like bull/bear market) to do a data-based analysis of different tokenomics

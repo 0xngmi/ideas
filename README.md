@@ -83,7 +83,7 @@ https://twitter.com/0xngmi/status/1503023026522238985
 https://twitter.com/0xngmi/status/1503017784317562885
 
 ### Tranched product with personalized risk profiles
-WIP
+https://gist.github.com/0xngmi/653aa70d3162f0ef4a41d56ced602a6c
 
 ### Vault for Ruler
 Revive ruler but build a vault where people can just deposit money and it lends it out
